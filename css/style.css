@@ -38,10 +38,10 @@
     background-color: #fff;;
 }
 
-a.nav-link:hover {
-    color: white !important;
+.navbar-brand:hover, a.nav-link:hover {
+    color: #fff !important;
     text-decoration: #7952b3 underline 2px wavy;
-  }
+}
 
 .hero {
     margin-top: 5em;
@@ -206,7 +206,7 @@ h1, h2, h3 {
 
 .project-button:hover {
     background-color: #7952b3;
-    color: white;
+    color: #fff;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
@@ -255,6 +255,6 @@ h1, h2, h3 {
 }
 
 .footer-icon:hover {
-    color: white;
+    color: #fff;
     transition: all 0.3s ease-in-out;
 }
