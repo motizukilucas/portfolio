@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style: semibold;
+    font-weight: 600;
+    src: url(../webfonts/OpenSans-SemiBold.ttf) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: regular;
+    font-weight: 400;
+    src: url(../webfonts/Roboto-Regular.ttf) format('woff2');
+}

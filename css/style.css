@@ -1,0 +1,223 @@
+.section-title {
+    font-size: 2.23rem;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    padding: 0.25em 1em;
+    text-transform: uppercase;
+}
+
+.section-body {
+    font-size: 1rem;
+}
+
+@media (min-width: 800px) {
+    .section-title {
+        font-size: 4.5rem;
+    }
+    
+    /* .section-subtitle {
+        font-size: 3.75rem;
+    } */
+    
+    .section-body {
+        font-size: 1.25rem;
+    }
+}
+
+.navbar {
+    background-color: rgba(13, 14, 14, 0.5);
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after, .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after, .hamburger.is-active .hamburger-inner::before {
+    background-color: #fff;;
+}
+
+a.nav-link:hover {
+    color: white !important;
+    text-decoration: #7952b3 underline 2px wavy;
+  }
+
+.hero {
+    margin-top: 5em;
+}
+
+body {
+    color: #303030;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+}
+
+.section-subtitle {
+    background-color: #7952b3;
+    color: #fff;
+    display: inline-block;
+}
+
+/* hero */
+
+.hero-img {
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 600px) {
+    .hero {
+        display: grid;
+        width: min-content;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+        "img title"
+        "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+
+    .hero-img {
+        grid-area: img;
+        min-width: 250px;
+        z-index: 2;
+    }
+
+    .hero .section-subtitle {
+        align-self: start;
+        grid-column: -1 / 1;
+        grid-row: 2;
+        text-align: right;   
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
+    }
+}
+
+/* skills */
+
+.skills {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(37, 41, 52, 0.6);
+    background-blend-mode: multiply;
+    color: #fff;
+}
+
+.skills .section-title {
+    text-decoration: underline #7952b3;
+}
+
+/* about  */
+
+@media (min-width: 600px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas: 
+        "title img"
+        "subtitle img"
+        "text img";
+    }
+
+    .about .section-title {
+        grid-area: title;
+    }
+
+    .about .section-subtitle {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        width: calc(100% + 1.5em);
+        align-self: start;
+        margin: 0;
+    }
+
+    .about-img {
+        grid-area: img;
+        z-index: 2;
+        box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* my work */
+
+.work .section-subtitle {
+    color: #7952b3;
+    background-color: #fff;
+}
+
+.project {
+    width: 380px;
+    height: 300px;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.project-text {
+    line-height: 18pt;
+    height: 60%;
+    background: rgba(245, 245, 245, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.project-name {
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+.project-tech {
+    font-size: 12pt;
+    color: #7952b3;
+}
+
+.project-button-wrapper {
+    height: 40%;
+    background: rgba(245, 245, 245, 0.6);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-button {
+    width: 170px;
+    height: 40px;
+    border: 1px solid;
+    border-color: #7952b3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.project-button:hover {
+    background-color: #7952b3;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.aws {
+    background-image: url(../img/aws.jpg);
+}
+
+.harry {
+    background-image: url(../img/harry.jpg);
+}
+
+.ti {
+    background-image: url(../img/ti.jpg);
+}
