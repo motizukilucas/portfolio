@@ -221,3 +221,40 @@ h1, h2, h3 {
 .ti {
     background-image: url(../img/ti.jpg);
 }
+
+/* footer */
+
+.footer {
+    text-transform: uppercase;
+    background: #1b242f;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.footer-icon-wrapper {
+    width: 50px;
+    height: 50px;
+    background:rgba(0,0,0,0.4);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer-icon-wrapper:hover {
+    text-decoration: none;
+}
+
+.footer-icon {
+    color: #000;
+    width: 50px;
+    padding: 9px;
+}
+
+.footer-icon:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
