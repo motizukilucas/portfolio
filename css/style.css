@@ -222,6 +222,18 @@ h1, h2, h3 {
     background-image: url(../img/ti.jpg);
 }
 
+.dular {
+    background-image: url(../img/dular.jpg);
+}
+
+.paypal {
+    background-image: url(../img/paypal.jpg);
+}
+
+.thehider {
+    background-image: url(../img/thehider.jpg);
+}
+
 /* footer */
 
 .footer {
