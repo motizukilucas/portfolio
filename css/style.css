@@ -176,7 +176,7 @@ h1, h2, h3 {
 .project-text {
     line-height: 18pt;
     height: 60%;
-    background: rgba(245, 245, 245, 0.6);
+    background: rgba(245, 245, 245, 0.7);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -194,7 +194,7 @@ h1, h2, h3 {
 
 .project-button-wrapper {
     height: 40%;
-    background: rgba(245, 245, 245, 0.6);
+    background: rgba(245, 245, 245, 0.7);
     display: flex;
     justify-content: center;
     text-align: center;
